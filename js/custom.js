@@ -3,10 +3,7 @@
   
   "use strict";
 
-    // PRE LOADER
-    $(window).load(function(){
-      $('.preloader').fadeOut(100); // set duration in brackets    
-    });
+    
 
     // CUSTOM LINK
     $('.custom-link').click(function(){

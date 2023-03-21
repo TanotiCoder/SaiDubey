@@ -166,55 +166,6 @@ strong {
   height: 90.4px;
 }
 
-
-/*---------------------------------------
-  PRE LOADER               
------------------------------------------
-.preloader {
-  position: fixed;
-  
-  width: 0%;
-  height: 0%;
-  z-index: 99999;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-items: center;
-  background: none repeat scroll 0 0 var(--white-color);
-}
-
-.spinner {
-  border: 1px solid transparent;
-  border-radius: var(--border-radius-small);
-  position: relative;
-}
-
-.spinner:before {
-  content: '';
-  box-sizing: border-box;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 45px;
-  height: 45px;
-  margin-top: -10px;
-  margin-left: -10px;
-  border-radius: 50%;
-  border: 1px solid var(--border-color);
-  border-top-color: var(--white-color);
-  animation: spinner .9s linear infinite;
-}
-
-@-webkit-@keyframes spinner {
-  to {transform: rotate(360deg);
-  }
-}
-
-@keyframes spinner {
-  to {transform: rotate(360deg);}
-}
-
-*/
 /*---------------------------------------
   CUSTOM ICON               
 -----------------------------------------*/
@@ -561,6 +512,12 @@ strong {
   padding: 13px 30px;
   display: inline-block;
 }
+.profile-small-title_two {
+  color: var(--secondary-color);
+  font-weight: var(--font-weight-bold);
+  padding: 30px 0px 0 0;
+  display: inline-block;
+}
 
 .profile-body p {
   margin-bottom: 0;
@@ -747,8 +704,6 @@ strong {
   border-radius: var(--border-radius-medium);
   display: block;
   width: 100%;
-  transform: rotate(10deg) translateY(80px);
-  transition: all ease 0.5s;
 }
 
 .projects-title {
